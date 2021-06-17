@@ -1,5 +1,4 @@
 /* Title */
-
 #title {
   background-color: #ff4c68;
 }
@@ -10,9 +9,11 @@ h1 {
   color: #fff;
   line-height: 1.5;
 }
-p{
+
+p {
   font-family: 'Ubuntu', sans-serif;
   font-weight: bold;
+  color: #8f8f8f;
 }
 
 .container-fluid {
@@ -44,16 +45,16 @@ p{
   width: 250px;
   margin-left: 10%;
   position: absolute;
-
 }
 
 /*            Features section                  */
-#features{
+#features {
   padding: 7% 0;
   background-color: #fff;
   position: relative;
   z-index: 1;
 }
+
 h3 {
   font-family: 'Montserrat', sans-serif;
   font-size: 1.5rem;
@@ -61,7 +62,6 @@ h3 {
 
 .description {
   text-align: center;
-
 }
 
 .description-container {
@@ -118,10 +118,13 @@ h2 {
 /* pricing */
 #pricing {
   text-align: center;
+  margin: 5rem 1rem;
 }
-.card{
+
+.card {
   margin: 2%;
 }
+
 .main-pricing {
   padding: 7% 3.5%;
 }
@@ -130,51 +133,58 @@ h2 {
   padding-bottom: 10%;
 }
 
-@media (max-width: 991px){
-.tindog-iphone-img {
+@media (max-width: 991px) {
+  .tindog-iphone-img {
     position: static;
     transform: rotate(0);
     margin-left: 0;
     width: 30%;
     width: 250px;
   }
-  #title{
+
+  #title {
     text-align: center;
   }
 }
-/* footer */
 
-#cta{
+/* footer */
+#cta {
   background-color: #ff4c68;
   text-align: center;
   padding: 100px;
 }
 
-#footer{
+#footer {
   padding: 50px;
   text-align: center;
   background: #fff;
 }
-.footer-btn{
+
+.footer-btn {
   margin: 5% 1.5% 5% 0;
 }
+
 .footer-icon {
   padding: 2%;
 }
-.instagram{
+
+.instagram {
   color: #ff4c68;
 }
-.instagram:hover{
-  color: 	#FF1493;
+
+.instagram:hover {
+  color: #FF1493;
 }
-.mail{
-  color:#cc1100;
+
+.mail {
+  color: #cc1100;
 }
-.mail:hover{
+
+.mail:hover {
   color: #810000;
 }
 
-.cheakout-btn{
+.cheakout-btn {
   text-align: center;
   margin: 0 auto;
 }
